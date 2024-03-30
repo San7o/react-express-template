@@ -1,8 +1,6 @@
-# fixmi-microservice-template
+# react-express-template
 
-This repository is designed to function as a comprehensive template for each microservice within the Fix-Mi application, streamlining the development process by providing a standardized foundation. By serving as a template, it aims to significantly reduce the time spent on configuration tasks and enhance overall consistency across the various microservices.
-
-Each microservice runs in a docker container, and uses:
+The application runs inside a docker container, and uses:
 
 - [Node.js](https://github.com/nodejs/node) with TypeScript language
 
@@ -96,9 +94,6 @@ npm run production
   - `index.tsx`: main react file
 
 A list of all the commands I used to make this template can be found in `commands/` 
-
-To use a dabatase, look [here](https://github.com/IS-FixMi/fixmi-database-template).
-
 Tested on Archlinux, linux kernel 6.7.6
 
 ## TODO
